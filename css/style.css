@@ -149,17 +149,17 @@ nav{
 
 }
 #p-title{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     color: #acdce1;
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
 }
 .about-right-col .content{
     font-family: 'Dancing Script', cursive;
 word-spacing: 7px;
-line-height: 20px;
-font-size: 20px;
+line-height: 45px;
+font-size: 25px;
 
 }
 
@@ -170,6 +170,7 @@ font-size: 20px;
     background: url("../images/cover.jpg");
     background-size: cover;
     color: white;
+    font-size: 25px;
     /* height: 70vh ; */
    
 }
@@ -187,10 +188,11 @@ font-size: 20px;
     flex-basis: 50%;
     color: #d6dbd2;
     font-family: 'Dancing Script', cursive;
-    font-size: 20px;
+    
     word-spacing: 5px;
     padding-top: 10px;
-    padding-left: 50px;
+    padding-left: 120px;
+    
 }
 .skills-right-col{
     /* float: right; */
@@ -238,6 +240,37 @@ font-size: 20px;
 }
 
 
+/*  certificates */
+#certificates{
+    padding: 100px 50px;
+    /* clip-path: polygon(0 0, 75% 0%, 100% 0, 100% 85%, 79% 100%, 0 87%); */
+    clip-path: polygon(0 10%, 75% 0%, 100% 6%, 100% 100%, 1% 100%, 0% 50%);
+
+    /* clip-path: polygon(0 16%, 86% 0, 100% 16%, 100% 100%, 79% 100%, 0 100%); */
+    background-image: linear-gradient(to left bottom,
+     #77d0eb, #8ed5da, #aad8ce, #c3d9cb, #d6dbd2);
+     margin-bottom: 0px;
+}
+.certificates-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding-right: 0px; */
+ }
+.certificates-box{
+    flex-basis: 25%;
+    margin: 20px 10px;
+    padding: 0px;
+    /* box-shadow: 2px 3px 5px grey; */
+    
+    
+}
+.certificates-box:hover{
+/* background-color: #aad8ce; */
+    transform: scale(1.1);
+    transition: all 0.3s linear; 
+}
 
 /* contact  ---------------- */
 
