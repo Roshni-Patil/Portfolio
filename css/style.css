@@ -362,14 +362,17 @@ color: white;
     }
     .skills{
         padding: 20px;
+
         font-size: 20px;
     }
     .skills-right-col{
         flex-basis: 100%;
+        padding: 10px;
         /* text-align: jutify;  */
     }
     .skills-left-col{
         flex-basis: 100%;
+        padding: 10px;
         /* text-align: jutify;  */
     }
     .progress-div{
@@ -393,7 +396,7 @@ color: white;
         
     }
     #certificates{
-        clip-path: polygon(0 6%, 75% 0%, 100% 6%, 100% 100%, 1% 100%, 0% 50%);
+        clip-path: polygon(0 4%, 75% 0%, 100% 4%, 100% 100%, 1% 100%, 0% 50%);
     }
     .social-menu a {
         height: 60px;
