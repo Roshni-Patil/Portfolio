@@ -244,7 +244,7 @@ font-size: 25px;
 #certificates{
     padding: 100px 50px;
     /* clip-path: polygon(0 0, 75% 0%, 100% 0, 100% 85%, 79% 100%, 0 87%); */
-    clip-path: polygon(0 10%, 75% 0%, 100% 6%, 100% 100%, 1% 100%, 0% 50%);
+    clip-path: polygon(0 10%, 75% 0%, 100% 10%, 100% 100%, 1% 100%, 0% 50%);
 
     /* clip-path: polygon(0 16%, 86% 0, 100% 16%, 100% 100%, 79% 100%, 0 100%); */
     background-image: linear-gradient(to left bottom,
