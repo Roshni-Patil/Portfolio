@@ -360,6 +360,10 @@ color: white;
         flex-basis: 100%;
     
     }
+    .skills{
+        padding: 20px;
+        font-size: 20px;
+    }
     .skills-right-col{
         flex-basis: 100%;
         /* text-align: jutify;  */
